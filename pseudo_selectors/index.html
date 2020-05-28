@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pseudo Class Selectors</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+
+    header li {
+        list-style: none;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        background-color: pink;
+        border: 1px solid blue;
+        color: black;
+        display: block;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+    
+    a:hover, a:active {
+         background-color: red;
+         color: purple;
+    }
+
+    header li:nth-child(3) {
+        font-size: 24px;
+    }
+
+    section div:nth-child(odd) {
+        background-color: papayawhip;
+    }
+    section div:nth-child(8):hover {
+        background-color: purple;
+        cursor: pointer;
+    }
+    
+   
+    
+    </style>
+</head>
+<body>
+    <h1>Pseudo Class Selectors</h1>
+    <header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://github.com/NatalliaNeuda/web-dev-test"
+                target="_blank">My GitHub Web Repo</a></li>
+            <li><a href="https://www.linkedin.com/in/neuda/"
+                target="_balnk">My linkedin</a></li>
+        </ul>
+    </header>
+<section>
+    <div>Div 1</div>
+    <div>Div 2</div>
+    <div>Div 3</div>
+    <div>Div 4</div>
+    <div>Div 5</div>
+    <div>Div 6</div>
+    <div>Div 7</div>
+    <div>Div 8</div>
+    <div>Div 9</div>
+    <div>Div 10</div>
+    <div>Div 11</div>
+    <div>Div 12</div>
+    <div>Div 13</div>
+    <div>Div 14</div>
+    <div>Div 15</div>
+    <div>Div 16</div>  
+</section>   
+</body>
+</html>
