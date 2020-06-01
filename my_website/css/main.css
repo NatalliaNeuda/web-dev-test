@@ -1,0 +1,14 @@
+body {
+    font-size: 16px;
+    
+    color: #E8E5DA;
+    background-color: #304C89;
+    font-family: 'Raleway', sans-serif;
+}
+
+#header-nav {
+    background-color: #9EB7E5;
+    border-radius: 0;
+    /* height: 100px; */
+    border: 0px;
+}
