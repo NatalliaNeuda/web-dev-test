@@ -2,13 +2,20 @@ body {
     font-size: 16px;
     
     color: #E8E5DA;
-    background-color: #304C89;
+    background-color: #b2967d;
     font-family: 'Raleway', sans-serif;
 }
 
 #header-nav {
-    background-color: #9EB7E5;
+    background-color: #faf3dd;
     border-radius: 0;
     /* height: 100px; */
     border: 0px;
+}
+
+#logo-img {
+    background: url('../output-onlinepngtools.png') no-repeat;
+    width: 190px;
+    height: 130px;
+    margin: 10px 0px 10px 0;
 }
